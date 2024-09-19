@@ -14,7 +14,7 @@ Participants were tasked with submitting a CSV file containing the `id` and the 
 ## Dataset Description
 The dataset provided for the competition included two main files:
 
-- `train.csv`: The training set containing the historical data of applicants from 2014 onwards, including the 'Değerlendirme Puanı' (Evaluation Score).
+- `train.csv`: The training set containing the historical data of applicants From 2014 to 2022, including the 'Değerlendirme Puanı' (Evaluation Score).
 - `test_x.csv`: The test set containing data for 11,049 applicants from 2023, excluding the 'Değerlendirme Puanı' column.
 - `sample_submission.csv`: A sample submission file demonstrating the format for uploading predictions, containing the `id` and the predicted `Değerlendirme Puani`.
 
@@ -27,12 +27,14 @@ The dataset contains various features that describe applicants' backgrounds, suc
 - **Extracurricular Activities**: Participation in entrepreneurship clubs, NGOs, professional sports, etc.
 
 The full list of features can be found in the dataset description on Kaggle.
+https://www.kaggle.com/competitions/datathon-2024/data
+
 
 ## Evaluation Metric
 The performance of the models was evaluated using **Root Mean Squared Error (RMSE)**, a common metric to measure prediction accuracy. RMSE calculates the square root of the average squared differences between predicted and actual values.
 
 **RMSE Formula**:  
-RMSE = sqrt( (1/n) * Σ(actual - predicted)^2 )
+![RMSE Plot](images/rmse.png)
 
 The goal was to minimize RMSE, with lower values indicating more accurate predictions.
 
@@ -41,8 +43,10 @@ The submission file needed to contain two columns:
 - `id`: Corresponding to the applicant ID in the test set.
 - `Degerlendirme Puani`: The predicted evaluation score for each applicant.
 
-The submission file format example:
+### The submission file format example:
+
 id,Degerlendirme Puani
+
 0,1.0
 1,27.0
 2,17.0
