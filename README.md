@@ -1,4 +1,4 @@
-# Datathon2024
+# Datathon 2024
 
 
 ## Overview
@@ -49,8 +49,11 @@ The submission file needed to contain two columns:
 id,Degerlendirme Puani
 
 0,1.0
+
 1,27.0
+
 2,17.0
+
 
 
 ## Approach/Methodology
