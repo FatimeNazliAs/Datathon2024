@@ -34,6 +34,7 @@ https://www.kaggle.com/competitions/datathon-2024/data
 The performance of the models was evaluated using **Root Mean Squared Error (RMSE)**, a common metric to measure prediction accuracy. RMSE calculates the square root of the average squared differences between predicted and actual values.
 
 **RMSE Formula**:  
+
 ![RMSE Plot](images/rmse.png)
 
 The goal was to minimize RMSE, with lower values indicating more accurate predictions.
